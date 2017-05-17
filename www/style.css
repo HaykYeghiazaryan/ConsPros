@@ -1,0 +1,163 @@
+.content{
+			border:2px solid #30a9d1;
+			box-sizing:border-box;
+			width:100%;
+			max-width:1100px;
+			margin:0 auto;
+		}
+
+		.contentHeader{
+			border-bottom:2px solid #30a9d1;
+			margin:0px;
+			padding:10px;
+			text-align:center;
+			color:#6ecae9;
+
+		}
+
+		.showHideDiv{
+			padding:10px;
+			border-bottom:2px solid #30a9d1;
+			text-align:center;
+			box-sizing:border-box;
+		}
+
+		.but,.Add{
+			font-size: 12px;
+		    line-height: 1.5;
+		    padding: 5px 10px;
+		    border-radius: 3px;
+		    color: rgb(255, 255, 255);
+		    background-color: #30a9d1;
+		    border-color: rgb(238, 162, 54);
+		    cursor:pointer;
+		    display: inline-block;
+		    margin:5px;
+		    margin-bottom: 0px;
+		    font-size: 14px;
+		    font-weight: 400;
+		    line-height: 1.42857;
+		    text-align: center;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    user-select: none;
+		    background-image: none;
+		    padding: 6px 12px;
+		    border-width: 1px;
+		    border-style: solid;
+		    border-color: transparent;
+		    border-image: initial;
+		    border-radius: 4px !important;
+		}
+		.Add{
+			padding:0px 10px;;
+		}
+		.ListContent{
+			display:flex;
+			height:600px;
+		}
+		.listDiv{
+			flex-grow:1;
+			box-sizing:border-box;
+		}
+		.listDiv:nth-child(1){
+			border-right:1px solid #30a9d1;
+		}
+		.listDiv:nth-child(2){
+			border-left:1px solid #30a9d1;
+		}
+		.listDiv ol::-webkit-scrollbar-track
+		{
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+			background-color: #F5F5F5;
+			border-radius: 0px;
+		}
+
+		.listDiv ol::-webkit-scrollbar
+		{
+			width: 10px;
+			background-color: #F5F5F5;
+		}
+
+		.listDiv ol::-webkit-scrollbar-thumb
+		{
+			border-radius: 10px;
+			background-color: #30a9d1;
+	
+			background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.2, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+		}
+		.consProsHeader{
+			border-bottom:2px solid #30a9d1;
+			margin:0px;
+			padding:10px;
+			text-align:center;
+			height:44px;
+			color:#6ecae9;
+			box-sizing:border-box;
+		}
+		ol{
+			height:500px;
+			margin:0px;
+			box-sizing:border-box;
+			padding:10px 10px 10px 30px;
+			overflow-x:hidden;
+		}
+		ol li{
+			padding:10px;
+			color:#6ecae9;
+		}
+		.itemHeader{
+			width:250px;
+			background:#6ecae9;
+			display:inline-block;
+			padding:5px 10px;;
+			text-shadow:1px 1px 1px #000000;
+			box-sizing:border-box;
+			color:#ffffff;
+			border-radius:4px;
+			font-family:Gabriola;
+			font-size:18px;
+			box-shadow:0px 0px 5px #000000;
+		}
+		.check{
+			width:20px;
+			height:20px;
+			margin:10px;
+			cursor:pointer;
+		}
+		.editDiv{
+			padding-top:20px;
+		}
+		.editInput,.addConsPros{
+			width:100%;
+			border-radius:4px !important;
+			color: rgb(85, 85, 85);
+		    background-color: rgb(255, 255, 255);
+		    background-image: none;
+		    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset;
+		    padding: 6px 12px;
+		    box-sizing:border-box;
+		    border-width: 1px;
+		    border-style: solid;
+		    border-color: rgb(204, 204, 204);
+		    border-image: initial;
+		    border-radius: 4px 0px 0px 4px;
+		    margin:5px 0px !important;
+		    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		}
+		.editInput:focus {
+		    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;
+		    border-color: rgb(102, 175, 233);
+		    outline: 0px;
+		}
+		form{
+			border-top:1px solid #6ecae9;
+			padding:10px;
+			box-sizing:border-box;
+			display:flex;
+			flex-flow:row;
+		}
