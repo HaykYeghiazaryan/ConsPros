@@ -1,5 +1,5 @@
 {
-  "name": "apolloBytes_task",
+  "name": "task",
   "version": "0.1.0",
   "description": "",
   "keywords": [
@@ -8,9 +8,9 @@
     "test"
   ],
   "license": "MIT",
-  "author": "Sargis Stepanyan",
+  "author": "Hayk Yeghiazaryan",
   "contributors": [
-    "Sargis Stepanyan <sastep1991@mail.ru>"
+    "Hayk Yeghiazaryan <haykk.yeghiazaryan@gmail.com>"
   ],
   "main": "src/index.js",
   "scripts": {
